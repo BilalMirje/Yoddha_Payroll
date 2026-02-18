@@ -1,0 +1,8 @@
+1) Change S3 bucket credentials settings in application.properties.
+2) Change Cloudinary credentials settings in BeansConfig class.
+3) uncomment setAllowedOrigins for production,
+   and comment setAllowedOrigins for testing in BeansConfig corsConfigurationSource().
+4) Change email settings/configuration in application.properties.
+5) Change "app.base-url" in application.properties.
+6) Change DB credentials in application.properties.
+7)
